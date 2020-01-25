@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 final SnackBar snackBar = const SnackBar(content: Text('Botão Clicado.'));
 
 class DolmanTabs extends StatelessWidget {
@@ -9,29 +10,35 @@ class DolmanTabs extends StatelessWidget {
     Tab(text: 'Profissionais')
   ];
 
+  DolmanTabs(ListView drawerItens);
+
+
+  get drawerItens => null;
+
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: dolmanTabs.length,
       child: Scaffold(
+
+        drawer: Drawer(
+          child: drawerItens
+        ),
+
         appBar: AppBar(
+
           title: const Text('Dolman'),
+          
           actions: <Widget>[
 
             IconButton(
-              icon: const Icon(Icons.person),
-              tooltip: 'Função do clique',
+              icon: const Icon(Icons.message),
+              tooltip: 'Mensagens',
               onPressed: () {
                 
               },
             ),
-            IconButton(
-              icon: const Icon(Icons.navigate_next),
-              tooltip: 'Próxima Página',
-              onPressed: () {
-                
-              },
-            ),
+
           ],
 
           bottom: TabBar(
@@ -54,3 +61,4 @@ class DolmanTabs extends StatelessWidget {
     );
   }
 }
+
