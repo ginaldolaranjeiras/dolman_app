@@ -10,6 +10,8 @@ final String titlehelp = 'Ajuda';
 
 final SnackBar snackBar = const SnackBar(content: Text('Botão Clicado.'));
 
+
+//Função que contrói a página inicial as guias e o menu lateral
 class DolmanTabs extends StatelessWidget {
   final List<Tab> dolmanTabs = <Tab>[
     Tab(text: 'Pra Você'),
@@ -78,7 +80,7 @@ class DolmanTabs extends StatelessWidget {
 
             IconButton(
               icon: const Icon(Icons.notifications),
-              tooltip: 'Mensagens',
+              tooltip: 'Notificações',
               onPressed: () {
                 
               },

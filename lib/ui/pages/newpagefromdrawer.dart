@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 
+//Função que contrói as páginas acessadas pelo menu lateral
+
 class NewPage extends MaterialPageRoute<Null> {
   NewPage(int id)
       : super(builder: (BuildContext context){
