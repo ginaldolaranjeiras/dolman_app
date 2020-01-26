@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'newpagefromdrawer.dart';
+
 
 final SnackBar snackBar = const SnackBar(content: Text('Botão Clicado.'));
 
@@ -10,11 +12,6 @@ class DolmanTabs extends StatelessWidget {
     Tab(text: 'Profissionais')
   ];
 
-  DolmanTabs(ListView drawerItens);
-
-
-  get drawerItens => null;
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -22,7 +19,50 @@ class DolmanTabs extends StatelessWidget {
       child: Scaffold(
 
         drawer: Drawer(
-          child: drawerItens
+          child: ListView(
+            padding: EdgeInsets.zero,
+            children: <Widget>[
+              UserAccountsDrawerHeader(
+                decoration: BoxDecoration(
+                  color: Colors.blueGrey,
+                ),
+                accountName: Text(
+                  'Nome de Usuário'
+                ),
+                accountEmail: Text(
+                  'user.name@email.com'
+                ),
+                currentAccountPicture: CircleAvatar(
+                  child: FlutterLogo(size: 42.0),
+                  backgroundColor: Colors.white
+                ),
+              ),
+              ListTile(
+                title: Text(
+                  'Pedidos'
+                ),
+                onTap: () => Navigator.of(context).push(NewPage(1)),
+              ),
+              ListTile(
+                title: Text(
+                  'Mensagens'
+                ),
+                onTap: () => Navigator.of(context).push(NewPage(2)),
+              ),
+              ListTile(
+                title: Text(
+                  'Configurações'
+                ),
+                onTap: () => Navigator.of(context).push(NewPage(3)),
+              ),
+              ListTile(
+                title: Text(
+                  'Ajuda'
+                ),
+                onTap: () => Navigator.of(context).push(NewPage(4)),
+              )
+            ],
+          ),
         ),
 
         appBar: AppBar(
