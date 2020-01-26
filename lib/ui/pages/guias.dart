@@ -2,6 +2,11 @@ import 'package:flutter/material.dart';
 
 import 'newpagefromdrawer.dart';
 
+final String titlepedidos = 'Pedidos';
+final String titlemensagens = 'Mensagens';
+final String titleconf = 'Configurações';
+final String titlehelp = 'Ajuda';
+
 
 final SnackBar snackBar = const SnackBar(content: Text('Botão Clicado.'));
 
@@ -39,25 +44,25 @@ class DolmanTabs extends StatelessWidget {
               ),
               ListTile(
                 title: Text(
-                  'Pedidos'
+                  ('$titlepedidos')
                 ),
                 onTap: () => Navigator.of(context).push(NewPage(1)),
               ),
               ListTile(
                 title: Text(
-                  'Mensagens'
+                  ('$titlemensagens')
                 ),
                 onTap: () => Navigator.of(context).push(NewPage(2)),
               ),
               ListTile(
                 title: Text(
-                  'Configurações'
+                  ('$titleconf')
                 ),
                 onTap: () => Navigator.of(context).push(NewPage(3)),
               ),
               ListTile(
                 title: Text(
-                  'Ajuda'
+                  ('$titlehelp')
                 ),
                 onTap: () => Navigator.of(context).push(NewPage(4)),
               )
@@ -72,7 +77,7 @@ class DolmanTabs extends StatelessWidget {
           actions: <Widget>[
 
             IconButton(
-              icon: const Icon(Icons.message),
+              icon: const Icon(Icons.notifications),
               tooltip: 'Mensagens',
               onPressed: () {
                 
