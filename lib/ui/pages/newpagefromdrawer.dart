@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 
-//Função que contrói as páginas acessadas pelo menu lateral
+//Função que constrói as páginas acessadas pelo menu lateral
 
 class NewPage extends MaterialPageRoute<Null> {
   NewPage(int id)
@@ -10,13 +10,13 @@ class NewPage extends MaterialPageRoute<Null> {
           appBar: AppBar(
             backgroundColor: Colors.blueGrey,
             title: Text(
-              'Page $id'
+              'Página de $id'
             ),
             elevation: 1.0,
           ),
           body: Center(
             child: Text(
-              'Page $id'
+              'Página de $id'
             )
           ),
           );

@@ -11,7 +11,7 @@ final String titlehelp = 'Ajuda';
 final SnackBar snackBar = const SnackBar(content: Text('Botão Clicado.'));
 
 
-//Função que contrói a página inicial as guias e o menu lateral
+//Função que constrói a página inicial as guias e o menu lateral
 class DolmanTabs extends StatelessWidget {
   final List<Tab> dolmanTabs = <Tab>[
     Tab(text: 'Pra Você'),
@@ -98,7 +98,7 @@ class DolmanTabs extends StatelessWidget {
             final String label = tab.text.toLowerCase();
             return Center(
               child: Text(
-                'This is the $label tab',
+                'Esta é a guia $label.',
                 style: const TextStyle(fontSize: 36),
               ),
             );
