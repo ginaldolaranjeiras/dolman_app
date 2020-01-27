@@ -40,8 +40,12 @@ class DolmanTabs extends StatelessWidget {
                   'user.name@email.com'
                 ),
                 currentAccountPicture: CircleAvatar(
-                  child: FlutterLogo(size: 42.0),
-                  backgroundColor: Colors.white
+                  child: GestureDetector(
+                    child: FlutterLogo(size: 42.0),
+                    onTap: (){
+
+                    },
+                  )
                 ),
               ),
               ListTile(
@@ -67,6 +71,14 @@ class DolmanTabs extends StatelessWidget {
                   ('$titlehelp')
                 ),
                 onTap: () => Navigator.of(context).push(NewPage(4)),
+              ),
+              ListTile(
+                title: Text(
+                  ('Sair')
+                ),
+                onTap: () {
+                                  
+                },
               )
             ],
           ),
@@ -74,7 +86,10 @@ class DolmanTabs extends StatelessWidget {
 
         appBar: AppBar(
 
-          title: const Text('Dolman'),
+          title: const Text(
+            'Dolman'
+          ),
+          centerTitle: true,
           
           actions: <Widget>[
 
@@ -91,7 +106,9 @@ class DolmanTabs extends StatelessWidget {
           bottom: TabBar(
             tabs: dolmanTabs,
           ),
-          backgroundColor: Colors.blueGrey,
+          backgroundColor: Colors.blueGrey
+          
+
         ),
         body: TabBarView(
           children: dolmanTabs.map((Tab tab) {

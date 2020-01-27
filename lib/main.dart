@@ -9,6 +9,7 @@ void main(){
   
   runApp(MaterialApp(
     home: DolmanTabs(),
+    debugShowCheckedModeBanner: false,
     ));
 
 }
