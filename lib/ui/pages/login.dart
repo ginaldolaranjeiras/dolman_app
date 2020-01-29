@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'cadastro.dart';
+
 
 //Cria a página de Login
 
@@ -34,22 +36,24 @@ class _LoginState extends State<Login> {
             ),
             TextFormField(
               decoration: const InputDecoration(
-              hintText: 'Login',
+              
+              hintText: 'Usuário',
               ),
               validator: (value) {
                 if (value.isEmpty) {
-                return 'Please enter some text';
+                return 'Por favor insira um texto';
                 }
                 return null;
               },
             ),
             TextFormField(
+              obscureText: true,
               decoration: const InputDecoration(
               hintText: 'Senha',
               ),
               validator: (value) {
                 if (value.isEmpty) {
-                return 'Please enter some text';
+                return 'Por favor informe algum valor';
                 }
                 return null;
               },
@@ -117,8 +121,9 @@ class _LoginState extends State<Login> {
                     textAlign: TextAlign.left,
                   ),
                   RaisedButton(
-                    onPressed: () {
-                    },
+                    onPressed: () =>
+                      Navigator.of(context).push(Cadastro()),
+                    
                     child: Text('Cadastrar'),
                   )
                 ],
@@ -132,4 +137,7 @@ class _LoginState extends State<Login> {
       
     );
   }
+}
+
+class Cadastrar {
 }

@@ -1,6 +1,6 @@
-import 'package:dolman_app/ui/pages/guias.dart';
+//import 'package:dolman_app/ui/pages/guias.dart';
 import 'package:flutter/material.dart';
-//import 'ui/pages/login.dart';
+import 'ui/pages/login.dart';
 
 
 
@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 void main(){
   
   runApp(MaterialApp(
-    home: DolmanTabs(),
+    home: Login(),
     debugShowCheckedModeBanner: false,
     ));
 
