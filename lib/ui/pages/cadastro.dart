@@ -10,7 +10,7 @@ class Cadastro extends MaterialPageRoute<Null> {
           'Cadastro'
         ),
       ),
-      body: Center(
+      body: Center(  
         child: SingleChildScrollView(
           child: Padding(
             padding: EdgeInsets.all(10.00),
@@ -81,7 +81,6 @@ class Cadastro extends MaterialPageRoute<Null> {
               Padding(
                 padding: EdgeInsets.all(5.00),
                 child:TextField(
-                  keyboardType: TextInputType.numberWithOptions(),
                   obscureText: true,
                   decoration: InputDecoration(
                     icon: Icon(
@@ -97,8 +96,23 @@ class Cadastro extends MaterialPageRoute<Null> {
               ),
 
               Padding(
+                 padding: EdgeInsets.fromLTRB(45.0, 5.0, 5.0, 5.0),
+                child:TextField(
+                  obscureText: true,
+                  decoration: InputDecoration(
+                    border: OutlineInputBorder(
+
+                    ),
+                    hintText: 'Confirme sua senha e lembre-se dela',
+                    labelText: 'Repita sua senha',
+                  ),
+                )
+              ),
+
+              Padding(
                 padding: EdgeInsets.fromLTRB(45.0, 5.0, 5.0, 5.0),
                 child: TextFormField(
+                  keyboardType: TextInputType.numberWithOptions(),
                   decoration: const InputDecoration(
                     border: OutlineInputBorder(
 
@@ -114,7 +128,33 @@ class Cadastro extends MaterialPageRoute<Null> {
                 ),
               ),
 
-              
+              Padding(
+                padding: EdgeInsets.fromLTRB(45.0, 5.0, 5.0, 5.0),
+                child: TextFormField(
+                  decoration: const InputDecoration(
+                    border: OutlineInputBorder(
+
+                    ),
+                    hintText: 'Crie um usuário que combina com você',
+                    labelText: 'Usuário',
+                  ),
+                  onSaved: (String value) {
+                  },
+                  validator: (String value) {
+                    return value.contains('@') ? 'Do not use the @ char.' : null;
+                  },
+                ),
+              ),
+
+              Padding(
+                padding: const EdgeInsets.fromLTRB(50.0, 10.0, 50.0, 10.0),
+                child: RaisedButton(
+                  onPressed: () {
+                    
+                  },
+                  child: Text('Registrar'),
+                ),
+              ),
 
 
             ],
