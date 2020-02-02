@@ -88,7 +88,6 @@ class _LoginState extends State<Login> {
                   Icons.phone,
                   color: Colors.blueGrey,
                   size: 36.0,
-                  semanticLabel: 'Text to announce in accessibility modes',
                 ),
                 Icon(
                   Icons.email,
