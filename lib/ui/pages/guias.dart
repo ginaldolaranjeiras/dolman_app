@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'newpagefromdrawer.dart';
+import 'login.dart';
 
 final String titlepedidos = 'Pedidos';
 final String titlemensagens = 'Mensagens';
@@ -76,9 +77,10 @@ class DolmanTabs extends StatelessWidget {
                 title: Text(
                   ('Sair')
                 ),
-                onTap: () {
-                                  
-                },
+                onTap: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Login()),
+                ),
               )
             ],
           ),

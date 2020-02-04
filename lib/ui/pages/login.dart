@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'cadastro.dart';
+import 'guias.dart';
 
 
 //Cria a página de Login
@@ -40,10 +41,15 @@ class _LoginState extends State<Login> {
               hintText: 'Usuário',
               ),
               validator: (value) {
-                if (value.isEmpty) {
-                return 'Por favor insira um texto';
+                setState(() {
+                  if (value.isEmpty) {
+                  return 'Por favor insira um texto';
                 }
+                });
                 return null;
+                setState(() {
+                  
+                });
               },
             ),
             TextFormField(
@@ -68,8 +74,10 @@ class _LoginState extends State<Login> {
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 8.0),
               child: RaisedButton(
-                onPressed: () {
-                },
+                onPressed: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => DolmanTabs()),
+                ),
                 child: Text('Entrar'),
               ),
             ),

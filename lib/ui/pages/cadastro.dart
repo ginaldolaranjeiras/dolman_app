@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'guias.dart';
+
 class Cadastro extends MaterialPageRoute<Null> {
   Cadastro()
   : super(builder: (BuildContext context) {
@@ -149,9 +151,10 @@ class Cadastro extends MaterialPageRoute<Null> {
               Padding(
                 padding: const EdgeInsets.fromLTRB(50.0, 10.0, 50.0, 10.0),
                 child: RaisedButton(
-                  onPressed: () {
-                    
-                  },
+                  onPressed: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => DolmanTabs()),
+                ),
                   child: Text('Registrar'),
                 ),
               ),
