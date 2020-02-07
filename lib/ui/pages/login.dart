@@ -45,11 +45,9 @@ class _LoginState extends State<Login> {
                   if (value.isEmpty) {
                   return 'Por favor insira um texto';
                 }
-                });
+              });
                 return null;
-                setState(() {
-                  
-                });
+                
               },
             ),
             TextFormField(
@@ -146,5 +144,3 @@ class _LoginState extends State<Login> {
   }
 }
 
-class Cadastrar {
-}

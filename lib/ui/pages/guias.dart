@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import 'package:dolman_app/ui/pages/pratos.dart';
+import 'package:dolman_app/ui/pages/pravoce.dart';
+import 'package:dolman_app/ui/pages/profissionais.dart';
 import 'newpagefromdrawer.dart';
 import 'login.dart';
 
@@ -113,15 +116,11 @@ class DolmanTabs extends StatelessWidget {
 
         ),
         body: TabBarView(
-          children: dolmanTabs.map((Tab tab) {
-            final String label = tab.text.toLowerCase();
-            return Center(
-              child: Text(
-                'Esta é a guia $label.',
-                style: const TextStyle(fontSize: 36),
-              ),
-            );
-          }).toList(),
+          children: [
+            PraVoce(),
+            Pratos(),
+            Profissionais()
+          ]
         ),
       ),
     );
