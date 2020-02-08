@@ -18,47 +18,83 @@ class _ProfissionaisState extends State<Profissionais> {
             mainAxisSpacing: 5,
             crossAxisCount: 1,
             children: <Widget>[
-              Container(
-                padding: const EdgeInsets.all(8),
-                child: const Text(
-                  'He\'d have you all unravel at the'
+              Card(
+                child: InkWell(
+                  splashColor: Colors.blue.withAlpha(30),
+                  onTap: () {
+                    print('Card tapped.');
+                  },
+                  child: Container(
+                    width: 300,
+                    height: 100,
+                    child: Text('A card that can be tapped'),
                   ),
-                color: Colors.blue[100],
+                ),
               ),
-              Container(
-                padding: const EdgeInsets.all(8),
-                child: const Text(
-                  'Heed not the rabble'
+              Card(
+                child: InkWell(
+                  splashColor: Colors.blue.withAlpha(30),
+                  onTap: () {
+                    print('Card tapped.');
+                  },
+                  child: Container(
+                    width: 300,
+                    height: 100,
+                    child: Text('A card that can be tapped'),
                   ),
-                color: Colors.blue[200],
+                ),
               ),
-              Container(
-                padding: const EdgeInsets.all(8),
-                child: const Text(
-                  'Sound of screams but the'
+              Card(
+                child: InkWell(
+                  splashColor: Colors.blue.withAlpha(30),
+                  onTap: () {
+                    print('Card tapped.');
+                  },
+                  child: Container(
+                    width: 300,
+                    height: 100,
+                    child: Text('A card that can be tapped'),
                   ),
-                color: Colors.blue[300],
+                ),
               ),
-              Container(
-                padding: const EdgeInsets.all(8),
-                child: const Text(
-                  'Who scream'
+              Card(
+                child: InkWell(
+                  splashColor: Colors.blue.withAlpha(30),
+                  onTap: () {
+                    print('Card tapped.');
+                  },
+                  child: Container(
+                    width: 300,
+                    height: 100,
+                    child: Text('A card that can be tapped'),
                   ),
-                color: Colors.blue[400],
+                ),
               ),
-              Container(
-                padding: const EdgeInsets.all(8),
-                child: const Text(
-                  'Revolution is coming...'
+              Card(
+                child: InkWell(
+                  splashColor: Colors.blue.withAlpha(30),
+                  onTap: () {
+                    print('Card tapped.');
+                  },
+                  child: Container(
+                    width: 300,
+                    height: 100,
+                    child: Text('A card that can be tapped'),
                   ),
-                color: Colors.blue[500],
+                ),
               ),
-              Container(
-                padding: const EdgeInsets.all(8),
-                child: const Text(
-                  'Revolution, they...'
+              Card(
+                child: InkWell(
+                  splashColor: Colors.blue.withAlpha(30),
+                  onTap: () {
+                    print('Card tapped.');
+                  },
+                  child: Container(
+                    width: 300,
+                    height: 100,
+                    child: Text('A card that can be tapped'),
                   ),
-                color: Colors.blue[600],
+                ),
               ),
             ],
           ),

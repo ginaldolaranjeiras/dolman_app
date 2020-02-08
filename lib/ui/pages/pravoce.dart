@@ -18,35 +18,83 @@ class _PraVoceState extends State<PraVoce> {
             mainAxisSpacing: 5,
             crossAxisCount: 1,
             children: <Widget>[
-              Container(
-                padding: const EdgeInsets.all(8),
-                child: const Text('He\'d have you all unravel at the'),
-                color: Colors.green[100],
+              Card(
+                child: InkWell(
+                  splashColor: Colors.blue.withAlpha(30),
+                  onTap: () {
+                    print('Card tapped.');
+                  },
+                  child: Container(
+                    width: 300,
+                    height: 100,
+                    child: Text('A card that can be tapped'),
+                  ),
+                ),
               ),
-              Container(
-                padding: const EdgeInsets.all(8),
-                child: const Text('Heed not the rabble'),
-                color: Colors.green[200],
+              Card(
+                child: InkWell(
+                  splashColor: Colors.blue.withAlpha(30),
+                  onTap: () {
+                    print('Card tapped.');
+                  },
+                  child: Container(
+                    width: 300,
+                    height: 100,
+                    child: Text('A card that can be tapped'),
+                  ),
+                ),
               ),
-              Container(
-                padding: const EdgeInsets.all(8),
-                child: const Text('Sound of screams but the'),
-                color: Colors.green[300],
+              Card(
+                child: InkWell(
+                  splashColor: Colors.blue.withAlpha(30),
+                  onTap: () {
+                    print('Card tapped.');
+                  },
+                  child: Container(
+                    width: 300,
+                    height: 100,
+                    child: Text('A card that can be tapped'),
+                  ),
+                ),
               ),
-              Container(
-                padding: const EdgeInsets.all(8),
-                child: const Text('Who scream'),
-                color: Colors.green[400],
+              Card(
+                child: InkWell(
+                  splashColor: Colors.blue.withAlpha(30),
+                  onTap: () {
+                    print('Card tapped.');
+                  },
+                  child: Container(
+                    width: 300,
+                    height: 100,
+                    child: Text('A card that can be tapped'),
+                  ),
+                ),
               ),
-              Container(
-                padding: const EdgeInsets.all(8),
-                child: const Text('Revolution is coming...'),
-                color: Colors.green[500],
+              Card(
+                child: InkWell(
+                  splashColor: Colors.blue.withAlpha(30),
+                  onTap: () {
+                    print('Card tapped.');
+                  },
+                  child: Container(
+                    width: 300,
+                    height: 100,
+                    child: Text('A card that can be tapped'),
+                  ),
+                ),
               ),
-              Container(
-                padding: const EdgeInsets.all(8),
-                child: const Text('Revolution, they...'),
-                color: Colors.green[600],
+             Card(
+                child: InkWell(
+                  splashColor: Colors.blue.withAlpha(30),
+                  onTap: () {
+                    print('Card tapped.');
+                  },
+                  child: Container(
+                    width: 300,
+                    height: 100,
+                    child: Text('A card that can be tapped'),
+                  ),
+                ),
               ),
             ],
           ),
