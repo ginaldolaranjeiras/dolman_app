@@ -12,9 +12,6 @@ final String titleconf = 'Configurações';
 final String titlehelp = 'Ajuda';
 
 
-final SnackBar snackBar = const SnackBar(content: Text('Botão Clicado.'));
-
-
 //Função que constrói a página inicial as guias e o menu lateral
 class DolmanTabs extends StatelessWidget {
   final List<Tab> dolmanTabs = <Tab>[
@@ -52,9 +49,10 @@ class DolmanTabs extends StatelessWidget {
                   )
                 ),
               ),
+
               ListTile(
                 title: Text(
-                  ('$titlepedidos')
+                  ('$titlepedidos'),
                 ),
                 onTap: () => Navigator.of(context).push(NewPage(1)),
               ),

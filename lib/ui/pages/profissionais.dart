@@ -27,7 +27,13 @@ class _ProfissionaisState extends State<Profissionais> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text('A card that can be tapped'),
+                    child: Text(
+                      'Chef Diego',
+                      textAlign: TextAlign.end,
+                      style: TextStyle(
+                        fontSize: 18.0
+                      )
+                    ),
                   ),
                 ),
               ),
@@ -40,7 +46,13 @@ class _ProfissionaisState extends State<Profissionais> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text('A card that can be tapped'),
+                    child: Text(
+                      'Chef Carla',
+                      textAlign: TextAlign.end,
+                      style: TextStyle(
+                        fontSize: 18.0
+                      )
+                      ),
                   ),
                 ),
               ),
@@ -53,7 +65,13 @@ class _ProfissionaisState extends State<Profissionais> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text('A card that can be tapped'),
+                    child: Text(
+                      'Chef João',
+                      textAlign: TextAlign.end,
+                      style: TextStyle(
+                        fontSize: 18.0
+                      )
+                      ),
                   ),
                 ),
               ),
@@ -66,7 +84,13 @@ class _ProfissionaisState extends State<Profissionais> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text('A card that can be tapped'),
+                    child: Text(
+                      'Chef Confeiteira Brisa',
+                      textAlign: TextAlign.end,
+                      style: TextStyle(
+                        fontSize: 18.0
+                      )
+                      ),
                   ),
                 ),
               ),
@@ -79,7 +103,13 @@ class _ProfissionaisState extends State<Profissionais> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text('A card that can be tapped'),
+                    child: Text(
+                      'Chef Emma',
+                      textAlign: TextAlign.end,
+                      style: TextStyle(
+                        fontSize: 18.0
+                      )
+                      ),
                   ),
                 ),
               ),
@@ -92,7 +122,13 @@ class _ProfissionaisState extends State<Profissionais> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text('A card that can be tapped'),
+                    child: Text(
+                      'Chef Pedro Japonesa',
+                      textAlign: TextAlign.end,
+                      style: TextStyle(
+                        fontSize: 18.0
+                      )
+                      ),
                   ),
                 ),
               ),

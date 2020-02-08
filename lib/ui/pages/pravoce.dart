@@ -27,7 +27,13 @@ class _PraVoceState extends State<PraVoce> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text('A card that can be tapped'),
+                    child: Text(
+                      'Jantar Romântico',
+                      textAlign: TextAlign.end,
+                      style: TextStyle(
+                        fontSize: 18.0
+                      )
+                      ),
                   ),
                 ),
               ),
@@ -40,7 +46,13 @@ class _PraVoceState extends State<PraVoce> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text('A card that can be tapped'),
+                    child: Text(
+                      'Jantar de Comemoração',
+                      textAlign: TextAlign.end,
+                      style: TextStyle(
+                        fontSize: 18.0
+                      )
+                      ),
                   ),
                 ),
               ),
@@ -53,7 +65,13 @@ class _PraVoceState extends State<PraVoce> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text('A card that can be tapped'),
+                    child: Text(
+                      'Ceia',
+                      textAlign: TextAlign.end,
+                      style: TextStyle(
+                        fontSize: 18.0
+                      )
+                      ),
                   ),
                 ),
               ),
@@ -66,7 +84,13 @@ class _PraVoceState extends State<PraVoce> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text('A card that can be tapped'),
+                    child: Text(
+                      'Jantar de Negócios',
+                      textAlign: TextAlign.end,
+                      style: TextStyle(
+                        fontSize: 18.0
+                      )
+                      ),
                   ),
                 ),
               ),
@@ -79,7 +103,13 @@ class _PraVoceState extends State<PraVoce> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text('A card that can be tapped'),
+                    child: Text(
+                      'Jantar de Boldas',
+                      textAlign: TextAlign.end,
+                      style: TextStyle(
+                        fontSize: 18.0
+                      )
+                      ),
                   ),
                 ),
               ),
@@ -92,7 +122,13 @@ class _PraVoceState extends State<PraVoce> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text('A card that can be tapped'),
+                    child: Text(
+                      'Mino',
+                      textAlign: TextAlign.end,
+                      style: TextStyle(
+                        fontSize: 18.0
+                      )
+                      ),
                   ),
                 ),
               ),

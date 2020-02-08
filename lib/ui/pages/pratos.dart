@@ -27,7 +27,13 @@ class _PratosState extends State<Pratos> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text('A card that can be tapped'),
+                    child: Text(
+                      'Talharim à Bolonhesa',
+                      textAlign: TextAlign.end,
+                      style: TextStyle(
+                        fontSize: 18.0
+                      )
+                      ),
                   ),
                 ),
               ),
@@ -40,7 +46,13 @@ class _PratosState extends State<Pratos> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text('A card that can be tapped'),
+                    child: Text(
+                      'Calzone',
+                      textAlign: TextAlign.end,
+                      style: TextStyle(
+                        fontSize: 18.0
+                      )
+                      ),
                   ),
                 ),
               ),
@@ -53,7 +65,13 @@ class _PratosState extends State<Pratos> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text('A card that can be tapped'),
+                    child: Text(
+                      'Risoto',
+                      textAlign: TextAlign.end,
+                      style: TextStyle(
+                        fontSize: 18.0
+                      )
+                      ),
                   ),
                 ),
               ),
@@ -66,7 +84,13 @@ class _PratosState extends State<Pratos> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text('A card that can be tapped'),
+                    child: Text(
+                      'Pizza especial',
+                      textAlign: TextAlign.end,
+                      style: TextStyle(
+                        fontSize: 18.0
+                      )
+                      ),
                   ),
                 ),
               ),
@@ -79,7 +103,13 @@ class _PratosState extends State<Pratos> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text('A card that can be tapped'),
+                    child: Text(
+                      'Carpaccio',
+                      textAlign: TextAlign.end,
+                      style: TextStyle(
+                        fontSize: 18.0
+                      )
+                      ),
                   ),
                 ),
               ),
@@ -92,7 +122,13 @@ class _PratosState extends State<Pratos> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text('A card that can be tapped'),
+                    child: Text(
+                      'Salmão',
+                      textAlign: TextAlign.end,
+                      style: TextStyle(
+                        fontSize: 18.0
+                      )
+                      ),
                   ),
                 ),
               ),
