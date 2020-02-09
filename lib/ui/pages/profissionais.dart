@@ -27,12 +27,21 @@ class _ProfissionaisState extends State<Profissionais> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text(
-                      'Chef Diego',
-                      textAlign: TextAlign.end,
+                    child: Stack(
+                      children: <Widget>[
+                        Image.asset(
+                          "images/Adobe_Post_20200209_1606360.7379532034966899.png",
+                          fit : BoxFit.contain
+                        ),
+                        Text(
+                      'Chef Paulo',
+                      textAlign: TextAlign.right,
                       style: TextStyle(
+                        color: Colors.white,
                         fontSize: 18.0
                       )
+                      ),
+                      ],
                     ),
                   ),
                 ),
@@ -46,13 +55,22 @@ class _ProfissionaisState extends State<Profissionais> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text(
-                      'Chef Carla',
-                      textAlign: TextAlign.end,
+                    child: Stack(
+                      children: <Widget>[
+                        Image.asset(
+                          "images/Adobe_Post_20200209_1611020.03473617031886611.png",
+                          fit : BoxFit.contain
+                        ),
+                        Text(
+                      'Chef Geraldo',
+                      textAlign: TextAlign.right,
                       style: TextStyle(
+                        color: Colors.white,
                         fontSize: 18.0
                       )
                       ),
+                      ],
+                    ),
                   ),
                 ),
               ),
@@ -65,13 +83,22 @@ class _ProfissionaisState extends State<Profissionais> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text(
-                      'Chef João',
-                      textAlign: TextAlign.end,
+                    child: Stack(
+                      children: <Widget>[
+                        Image.asset(
+                          "images/Adobe_Post_20200209_1614070.5059766550818937.png",
+                          fit : BoxFit.contain
+                        ),
+                        Text(
+                      'Chef Danilo',
+                      textAlign: TextAlign.right,
                       style: TextStyle(
+                        color: Colors.white,
                         fontSize: 18.0
                       )
                       ),
+                      ],
+                    ),
                   ),
                 ),
               ),
@@ -84,13 +111,22 @@ class _ProfissionaisState extends State<Profissionais> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text(
-                      'Chef Confeiteira Brisa',
-                      textAlign: TextAlign.end,
+                    child: Stack(
+                      children: <Widget>[
+                        Image.asset(
+                          "images/Adobe_Post_20200209_1559360.9814265892803253.png",
+                          fit : BoxFit.contain
+                        ),
+                        Text(
+                      'Chef Bernardo',
+                      textAlign: TextAlign.right,
                       style: TextStyle(
+                        color: Colors.white,
                         fontSize: 18.0
                       )
                       ),
+                      ],
+                    ),
                   ),
                 ),
               ),
@@ -103,13 +139,22 @@ class _ProfissionaisState extends State<Profissionais> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text(
-                      'Chef Emma',
-                      textAlign: TextAlign.end,
+                    child: Stack(
+                      children: <Widget>[
+                        Image.asset(
+                          "images/Adobe_Post_20200209_1604090.8838570667281752.png",
+                          fit : BoxFit.contain
+                        ),
+                        Text(
+                      'Chef Tereza',
+                      textAlign: TextAlign.right,
                       style: TextStyle(
+                        color: Colors.white,
                         fontSize: 18.0
                       )
                       ),
+                      ],
+                    ),
                   ),
                 ),
               ),
@@ -122,13 +167,22 @@ class _ProfissionaisState extends State<Profissionais> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text(
-                      'Chef Pedro Japonesa',
-                      textAlign: TextAlign.end,
+                    child: Stack(
+                      children: <Widget>[
+                        Image.asset(
+                          "images/Adobe_Post_20200209_1608330.3188994370990653.png",
+                          fit : BoxFit.contain
+                        ),
+                        Text(
+                      'Chef Yoko',
+                      textAlign: TextAlign.right,
                       style: TextStyle(
+                        color: Colors.white,
                         fontSize: 18.0
                       )
                       ),
+                      ],
+                    )
                   ),
                 ),
               ),

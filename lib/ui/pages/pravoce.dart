@@ -27,13 +27,22 @@ class _PraVoceState extends State<PraVoce> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text(
+                    child: Stack(
+                      children: <Widget>[
+                        Image.asset(
+                          "images/Adobe_Post_20200209_1615070.5778511796528978.png",
+                          fit : BoxFit.contain
+                        ),
+                        Text(
                       'Jantar Romântico',
-                      textAlign: TextAlign.end,
+                      textAlign: TextAlign.right,
                       style: TextStyle(
+                        color: Colors.white,
                         fontSize: 18.0
                       )
                       ),
+                      ],
+                    )
                   ),
                 ),
               ),
@@ -46,13 +55,22 @@ class _PraVoceState extends State<PraVoce> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text(
+                    child: Stack(
+                      children: <Widget>[
+                        Image.asset(
+                          "images/Adobe_Post_20200209_1615400.19662358041398953.png",
+                          fit : BoxFit.contain
+                        ),
+                        Text(
                       'Jantar de Comemoração',
-                      textAlign: TextAlign.end,
+                      textAlign: TextAlign.right,
                       style: TextStyle(
+                        color: Colors.white,
                         fontSize: 18.0
                       )
                       ),
+                      ],
+                    ),
                   ),
                 ),
               ),
@@ -65,13 +83,22 @@ class _PraVoceState extends State<PraVoce> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text(
+                    child: Stack(
+                      children: <Widget>[
+                        Image.asset(
+                          "images/Adobe_Post_20200209_1616180.09567665943767545.png",
+                          fit : BoxFit.contain
+                        ),
+                        Text(
                       'Ceia',
-                      textAlign: TextAlign.end,
+                      textAlign: TextAlign.right,
                       style: TextStyle(
+                        color: Colors.white,
                         fontSize: 18.0
                       )
                       ),
+                      ],
+                    ),
                   ),
                 ),
               ),
@@ -84,13 +111,22 @@ class _PraVoceState extends State<PraVoce> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text(
+                    child: Stack(
+                      children: <Widget>[
+                        Image.asset(
+                          "images/Adobe_Post_20200209_1613290.5625229825931526.png",
+                          fit : BoxFit.contain
+                        ),
+                        Text(
                       'Jantar de Negócios',
-                      textAlign: TextAlign.end,
+                      textAlign: TextAlign.right,
                       style: TextStyle(
+                        color: Colors.white,
                         fontSize: 18.0
                       )
                       ),
+                      ],
+                    ),
                   ),
                 ),
               ),
@@ -103,13 +139,22 @@ class _PraVoceState extends State<PraVoce> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text(
-                      'Jantar de Boldas',
-                      textAlign: TextAlign.end,
+                    child: Stack(
+                      children: <Widget>[
+                        Image.asset(
+                          "images/Adobe_Post_20200209_1607290.6757868090276472.png",
+                          fit : BoxFit.contain
+                        ),
+                        Text(
+                      'Jantar de Bodas',
+                      textAlign: TextAlign.right,
                       style: TextStyle(
+                        color: Colors.white,
                         fontSize: 18.0
                       )
                       ),
+                      ],
+                    ),
                   ),
                 ),
               ),
@@ -122,13 +167,22 @@ class _PraVoceState extends State<PraVoce> {
                   child: Container(
                     width: 300,
                     height: 100,
-                    child: Text(
-                      'Mino',
-                      textAlign: TextAlign.end,
+                    child: Stack(
+                      children: <Widget>[
+                        Image.asset(
+                          "images/Adobe_Post_20200209_1614380.6400888472406046.png",
+                          fit : BoxFit.contain
+                        ),
+                        Text(
+                      'Mimo',
+                      textAlign: TextAlign.right,
                       style: TextStyle(
+                        color: Colors.white,
                         fontSize: 18.0
                       )
                       ),
+                      ],
+                    ),
                   ),
                 ),
               ),

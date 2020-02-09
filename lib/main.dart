@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 //import 'ui/pages/login.dart';
 
 
-
 //Função que chama a função principal
 void main(){
   

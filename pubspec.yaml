@@ -45,6 +45,31 @@ flutter:
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
 
+  assets:
+   - images/Adobe_Post_20200209_1559360.9814265892803253.png
+   - images/Adobe_Post_20200209_1600560.8775927220513281.png
+   - images/Adobe_Post_20200209_1601450.06622765244819795.png
+   - images/Adobe_Post_20200209_1603120.8048755055900947.png
+   - images/Adobe_Post_20200209_1604090.8838570667281752.png
+   - images/Adobe_Post_20200209_1604550.8650237116013813.png
+   - images/Adobe_Post_20200209_1606360.7379532034966899.png
+   - images/Adobe_Post_20200209_1607290.6757868090276472.png
+   - images/Adobe_Post_20200209_1608330.3188994370990653.png
+   - images/Adobe_Post_20200209_1609290.8526466186353742.png
+   - images/Adobe_Post_20200209_1610210.592779853057806.png
+   - images/Adobe_Post_20200209_1611020.03473617031886611.png
+   - images/Adobe_Post_20200209_1611460.24689352942832732.png
+   - images/Adobe_Post_20200209_1612390.004882464128497799.png
+   - images/Adobe_Post_20200209_1613290.5625229825931526.png
+   - images/Adobe_Post_20200209_1614070.5059766550818937.png
+   - images/Adobe_Post_20200209_1614380.6400888472406046.png
+   - images/Adobe_Post_20200209_1615070.5778511796528978.png
+   - images/Adobe_Post_20200209_1615400.19662358041398953.png
+   - images/Adobe_Post_20200209_1616180.09567665943767545.png
+   - images/Adobe_Post_20200209_1618100.8009594462752692.png
+   - images/Adobe_Post_20200209_1618590.7980206487275768.png
+   
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
