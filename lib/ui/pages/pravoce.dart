@@ -16,7 +16,7 @@ class _PraVoceState extends State<PraVoce> {
           padding: const EdgeInsets.all(5),
           sliver: SliverGrid.count(
             mainAxisSpacing: 5,
-            crossAxisCount: 1,
+            crossAxisCount: 2,
             children: <Widget>[
               Card(
                 child: InkWell(
@@ -131,33 +131,35 @@ class _PraVoceState extends State<PraVoce> {
                 ),
               ),
               Card(
-                child: InkWell(
-                  splashColor: Colors.blue.withAlpha(30),
-                  onTap: () {
-                    print('Card tapped.');
-                  },
-                  child: Container(
-                    width: 300,
-                    height: 100,
-                    child: Stack(
-                      children: <Widget>[
-                        Image.asset(
-                          "images/Adobe_Post_20200209_1607290.6757868090276472.png",
-                          fit : BoxFit.contain
-                        ),
-                        Text(
+                child: Container(
+                  width: 300,
+                  height: 100,
+                  child: Stack(
+                  children: <Widget>[
+                    InkWell(
+                    splashColor: Colors.blue.withAlpha(30),
+                    onTap: () {
+                      print('Card tapped.');
+                      },
+                      child: Image.asset(
+                      "images/Adobe_Post_20200209_1607290.6757868090276472.png",
+                      fit : BoxFit.contain
+                    ),
+                    ),
+                    Text(
                       'Jantar de Bodas',
                       textAlign: TextAlign.right,
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 18.0
                       )
-                      ),
-                      ],
                     ),
-                  ),
-                ),
+                  ],
+                )
+
+                )
               ),
+
              Card(
                 child: InkWell(
                   splashColor: Colors.blue.withAlpha(30),

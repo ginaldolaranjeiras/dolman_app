@@ -16,7 +16,7 @@ class _PratosState extends State<Pratos> {
           padding: const EdgeInsets.all(5),
           sliver: SliverGrid.count(
             mainAxisSpacing: 5,
-            crossAxisCount: 1,
+            crossAxisCount: 2,
             children: <Widget>[
               Card(
                 child: InkWell(
