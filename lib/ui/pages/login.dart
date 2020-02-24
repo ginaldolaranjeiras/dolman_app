@@ -41,13 +41,10 @@ class _LoginState extends State<Login> {
               hintText: 'Usuário',
               ),
               validator: (value) {
-                setState(() {
-                  if (value.isEmpty) {
-                  return 'Por favor insira um texto';
+                if (value.isEmpty) {
+                return 'Por favor insira um texto';
                 }
-              });
-                return null;
-                
+                return null;               
               },
             ),
             TextFormField(
