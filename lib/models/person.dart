@@ -1,38 +1,31 @@
-class Person {
-  int id;
+//Cria superclasse do objeto do tipo pessoa
+//Atributo dos objetos Cliente e Profissionais
+
+import 'package:dolman_app/models/address.dart';
+import 'package:flutter/material.dart';
+
+class Person{
+  String  id;
   String name;
   String surname;
-  String cpf;
+  String username;
+  String phone;
   String email;
-  int dateborn;
-  String user;
-  String keyword;
-  int fone;
-  bool accept;
-  String locale;
-  String address;
-  String city;
-  String uf;
-  int cep;
-  int number;
+  Image profilePicker;
+  Address address;
+  int age;
+  
 
   Person({
     this.id,
     this.name,
     this.surname,
-    this.cpf,
+    this.username,
+    this.phone,
     this.email,
-    this.dateborn,
-    this.user,
-    this.keyword,
-    this.fone,
-    this.accept = false,
-    this.locale,
+    this.profilePicker,
     this.address,
-    this.city,
-    this.uf,
-    this.cep,
-    this.number
+    this.age,
   });
-
+  
 }
