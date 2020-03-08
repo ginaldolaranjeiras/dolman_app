@@ -1,25 +1,18 @@
 //Cria a classe do objeto Profissional herdando da Superclasse Pessoa e com atributo BuyMethod e Serviço
 
-import 'package:dolman_app/models/buy_method.dart';
 import 'package:dolman_app/models/person.dart';
 import 'package:dolman_app/models/service.dart';
 
-class Professional{
-  Person profissional;
+class Professional extends Person{
+  //Person profissional;
   List<Service> services;
 
-  BuyMethod _buyMethod;
-
-  //Converter futuramente em uma função assíncrona
-
-  BuyMethod get buyMethod => _buyMethod;
-
-  set buyMethod(BuyMethod buyMethod) {
-    _buyMethod = buyMethod;
-  }
+  //Obter futuramente o conteúdo do método de recebimento de API de reebimentos através de Get e Set assíncronos
+  bool _buyMethod;
 
   Professional({
-    this.profissional,
     this.services,
   });
 }
+
+
