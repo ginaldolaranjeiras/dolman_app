@@ -7,7 +7,6 @@ class Cadastro extends MaterialPageRoute<Null> {
   : super(builder: (BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blueGrey,
         title: const Text(
           'Cadastro'
         ),

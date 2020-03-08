@@ -8,7 +8,6 @@ class NewPage extends MaterialPageRoute<Null> {
       : super(builder: (BuildContext context){
         return Scaffold(
           appBar: AppBar(
-            backgroundColor: Colors.blueGrey,
             title: Text(
               'Página de $id'
             ),
