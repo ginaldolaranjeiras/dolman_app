@@ -3,6 +3,7 @@
 import 'package:dolman_app/models/person.dart';
 import 'package:dolman_app/models/service.dart';
 
+
 class Professional extends Person{
   //Person profissional;
   List<Service> services;
@@ -12,7 +13,28 @@ class Professional extends Person{
 
   Professional({
     this.services,
-  });
+    id,
+    name,
+    surname,
+    username,
+    phone,
+    email,
+    profilePicker,
+    address,
+    age
+  }): super({
+    id : id,
+    name : name,
+    surname : surname,
+    username : username,
+    phone : phone,
+    email : email,
+    profilePicker : profilePicker,
+    address : address,
+    age : age
+    });
 }
+
+
 
 

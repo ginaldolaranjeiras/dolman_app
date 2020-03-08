@@ -4,7 +4,7 @@
 import 'package:dolman_app/models/address.dart';
 import 'package:flutter/material.dart';
 
-class Person{
+abstract class Person{
   String  id;
   String name;
   String surname;
@@ -16,7 +16,7 @@ class Person{
   int age;
   
 
-  Person({
+  Person(Map map, {
     this.id,
     this.name,
     this.surname,
