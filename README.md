@@ -1,6 +1,9 @@
-# dolman_app
+# Dolman
 
-A new Flutter project.
+Dolman é um projeto de aplicativo escrito em Dart utilizando o Flutter.
+
+O objetivo inicial do aplcativo é intermediar o serviço de profissionais chefs de cozinha e autônomos que oferecem serviços gastronômicos.
+
 
 ## Getting Started
 
